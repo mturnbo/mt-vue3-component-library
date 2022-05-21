@@ -1,0 +1,10 @@
+{
+  "name": "mt-vue3-component-library",
+  "version": "0.0.1",
+  "description": "Vue 3 Component Library",
+  "main": "index.js",
+  "author": "Marcus Turnbo <marcus@emarcus.com>",
+  "license": "MIT",
+  "repository": "https://github.com/mturnbo/mt-vue3-component-library.git",
+  "private": false
+}
