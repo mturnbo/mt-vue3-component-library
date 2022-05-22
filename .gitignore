@@ -29,7 +29,8 @@ package-lock.json
 .pnp.js
 
 ### Build ###
-build/
+dist/
+lib/
 
 ### Test ###
 __snapshots__/

@@ -2,9 +2,31 @@
   "name": "mt-vue3-component-library",
   "version": "0.0.1",
   "description": "Vue 3 Component Library",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "module": "lib/index.esm.js",
   "author": "Marcus Turnbo <marcus@emarcus.com>",
   "license": "MIT",
   "repository": "https://github.com/mturnbo/mt-vue3-component-library.git",
-  "private": false
+  "private": false,
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^22.0.0",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@vue/compiler-sfc": "^3.2.35",
+    "prettier": "^2.6.2",
+    "rollup": "^2.74.1",
+    "rollup-plugin-css-only": "^3.1.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-vue": "^6.0.0",
+    "vue": "^3.2.35",
+    "vue-class-component": "^7.2.6",
+    "vue-template-compiler": "^2.6.14"
+  },
+  "peerDependencies": {
+    "vue": "^3.2.35",
+    "vue-class-component": "^7.2.6"
+  },
+  "dependencies": {},
+  "scripts": {
+    "build": "rollup -c"
+  }
 }
